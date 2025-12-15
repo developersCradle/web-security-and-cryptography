@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-   <img src="security.png" alt="alt text" width="500" height="300"/>
+   <img src="security_repo_idea.png" alt="security repo idea" width="600" height="400"/>
 </p>
 
 - For these courses one should configure **GIT** for handle projects.
@@ -17,6 +17,9 @@
 
 All course material from Cybersecurity for Developers: From Basics to Best Practices 
 by **Andrii Piatakha** ©. 
+
+> Some story of victory here!<br><br>
+> ~ *DevelopersCradle*
 
 Contains my own notes with some course material to enforce learning experience. 
 
@@ -58,6 +61,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 All course material from Cryptography and Hashing Fundamentals in Python and Java **Holczer Balazs** ©.
+
+> Some story of victory here!<br><br>
+> ~ *DevelopersCradle*
 
 Contains my own notes with some course material to enforce learning experience.
 
@@ -110,6 +116,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
+- DO the links.
 - [ ] Do the basic Caesar cipher.
 - [ ] Same with C++.
 
@@ -120,6 +127,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="the_complete_SSL_and_TLS_Guide_HTTP_to_HTTPS_description.PNG"  style="height: 170px; width: 900px;">
 </p>
+
+> Some story of victory here!<br><br>
+> ~ *DevelopersCradle*
 
 <!-- 
 All course material from Cryptography and Hashing Fundamentals in Python and Java **Holczer Balazs** ©.
