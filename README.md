@@ -52,6 +52,73 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] stuff.
 
 <p align="center">
+    <img id="Advanced Java Topics: Java Reflection - Master Class" src="OWASP_API_Security-Top_10_With_Java_Examples_Caption.png" style="height: 120px; width: 1200px;">
+</p>
+
+<p align="center">
+    <img id="Advanced Java Topics: Java Reflection - Master Class" src="OWASP_API_Security_Top_10_With_Java_Examples_Description.PNG" style="height: 220px; width: 900px;">
+</p>
+
+All course material from OWASP API Security Top 10 2021/2023/2025 with Java Examples
+by **Andrii Piatakha** ©. 
+
+> Some story of victory here!<br><br>
+> ~ *DevelopersCradle*
+
+Contains my own notes with some course material to enforce learning experience. 
+
+This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️ 
+
+ [The course at Udemy](https://www.udemy.com/course/owasp-learnit/). 
+
+[Content maker](https://it-bulls.com/).
+
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [x] [Section 01](#) - Introduction.
+- [x] [Section 02](#) - OWASP Top 10.
+- [x] [Section 03](#) - A01:2021-Broken Access Control.
+- [x] [Section 04](#) - A02:2021-Cryptographic Failures.
+- [x] [Section 05](#) - A03:2021-Injection.
+- [x] [Section 06](#) - A04:2021-Insecure Design.
+- [x] [Section 07](#) - A05:2021-Security Misconfiguration.
+- [x] [Section 08](#) - A06:2021-Vulnerable and Outdated Components.
+- [x] [Section 09](#) - A07:2021-Identification and Authentication Failures.
+- [x] [Section 10](#) - A08:2021-Software and Data Integrity Failures.
+- [x] [Section 11](#) - A09:2021-Security Logging and Monitoring Failures.
+- [x] [Section 12](#) - A10:2021-Server-Side Request Forgery.
+- [x] [Section 13](#) - OWASP API Security Top 10 2023.
+- [x] [Section 14](#) - OWASP Top 10 2025: LLM.
+- [x] [Section 15](#) - Cybersecurity Comprehensive Security Practices for Developers.
+- [x] [Section 16](#) - 🧪 EXAM TASK: OWASP Top 10, Secure Coding & Logging.
+- [x] [Section 17](#) - Resilient, Scalable & Secure Systems with Spring Boot.
+- [x] [Section 18](#) - Extra Materials: AI Cybersecurity Solutions.
+- [x] [Section 19](#) - Bonus Section.
+
+
+#### Additional stuff.
+
+- [ ] stuff.
+
+
+
+
+
+<p align="center">
     <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="cryptography_and_hashing_fundamentals_in_python_and_java_caption.png"  style="height: 70px; width: 900px;">
 </p>
 
