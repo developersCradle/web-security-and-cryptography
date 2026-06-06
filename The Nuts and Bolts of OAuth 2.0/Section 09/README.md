@@ -22,7 +22,7 @@ Introduction to OpenID Connect.
 </div>
 
 
-1. This is abut the token!
+1. This is about the **token**!
 ````Json
 {
   "kid": "gaNTVZLLCZI1NyzlfB4AED-yXy15dlvC5vIfgiknJ620",
@@ -31,7 +31,7 @@ Introduction to OpenID Connect.
 ````
 2. This is about the **payload**.
     - `iss` about the issuer if the token!
-    - `aud` Identify the user of the token!
+    - `aud` identify the user of the token!
     - `iat` is Unix **timestamp** when it was issued!
     - `exp` is Unix **timestamp** when it will be expired!
     - `sub` The unique identifier for the user ({USER_ID}).
@@ -73,12 +73,21 @@ signature
     <img src="Authorization_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
 </div>
 
-1.  Application gets the **ID token** and unpack it
+1.  **Application** gets the **ID token** and unpack it
     - Validate the **claim**!
     - Validate the **signature**!
 
+<div align="center">
+    <img src="There_Is_Different_Aud_For_The_Tokens.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
 
+1. For the **Access Token** there is different the `aud` field!
+    - **Audience** for the **Access Token** is the **API**!
+2. For the **ID token** there is different the `aud` field!
+    - **Audience** for the **ID token** is the **Application** itself!
+        - Application needs to know how to validate **ID tokens**!
 
+- Not all the **OAuth** server would use the **access tokens** format as **JWT**!
 
 # Obtaining an ID Token.
 

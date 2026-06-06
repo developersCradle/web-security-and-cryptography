@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 03: OAuth Clients.
 
-Introduction.
+OAuth Clients.
 
 # What I Learned.
 

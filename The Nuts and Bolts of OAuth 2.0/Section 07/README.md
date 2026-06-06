@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 07: OAuth for the Internet of Things.
 
-Introduction.
+OAuth for the Internet of Things.
 
 # What I Learned.
 

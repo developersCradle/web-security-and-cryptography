@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 08: Client Credentials Flow.
 
-Introduction.
+Client Credentials Flow. 
 
 # What I Learned.
 

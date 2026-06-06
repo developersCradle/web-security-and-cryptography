@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 04: OAuth for Server-Side Applications.
 
-Introduction.
+OAuth for Server-Side Applications. 
 
 # What I Learned.
 

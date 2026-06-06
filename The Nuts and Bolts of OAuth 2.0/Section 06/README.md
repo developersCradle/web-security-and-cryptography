@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 06: OAuth for Single-Page Applications.
 
-Introduction.
+OAuth for Single-Page Applications.
 
 # What I Learned.
 

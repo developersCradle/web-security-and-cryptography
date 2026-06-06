@@ -1,6 +1,6 @@
-# Section 01: Introduction.
+# Section 04: OAuth for Native Applications.
 
-Introduction.
+OAuth for Native Applications.
 
 # What I Learned.
 

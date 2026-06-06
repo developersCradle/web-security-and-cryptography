@@ -1,6 +1,7 @@
-# Section 01: Introduction.
+# Section 02: API Security Concepts.
 
-Introduction.
+
+API Security Concepts. 
 
 # What I Learned.
 
