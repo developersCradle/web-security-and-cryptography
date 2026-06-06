@@ -1,0 +1,46 @@
+# Section 01: Introduction.
+
+Introduction.
+
+# What I Learned.
+
+# Intro to this Course.
+
+# A Brief History of OAuth.
+
+# How OAuth Improves Application Security.
+
+# OAuth vs OpenID Connect.
+
+- **OAuth**:
+    - Was designed to access to API.
+        - No need to identify who is accessing.
+
+- **OpenID**:
+
+<div align="center">
+    <img src="Illustration_Of_The_Open_ID.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. We can think of **Oauth** like the key card for the hotel room! Door does not **need** to know who opener is!
+    - **Front desk**, checks your ID!
+        - **Front desk** is behaving like **authentication** server!
+        - **Card** is behaving like **access token**!
+            - **Key card** will have what it **can open** and **how long its working**!
+        - **Door** is behaving like **resource server**!
+
+<div align="center">
+    <img src="OpenID_Is_Implemented_Into_OAuth.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **OpenID** is extension for the **OAuth** that provides **user information**!
+    - Since names etc ...
+    - **OAuth** uses **Access tokens**!
+    - **OpenID** uses **ID tokens**!
+        - This tells about the users!
+
+<div align="center">
+    <img src="Seperation_Of_Responsibilities.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+# Quiz 01: The Basics.
