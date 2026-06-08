@@ -6,9 +6,82 @@ Introduction.
 
 # Intro to this Course.
 
+<div align="center">
+    <img src="Introduction.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. The instructor!
+
+<div align="center">
+    <img src="Oauth_Is_Collection_Of_Multiple_Specs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **OAuth** is collection of multiple specs!
+
+<div align="center">
+    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. This course will have two perspectives:
+    - Applications.
+        - OAuth.
+    - APIs.
+        - OAuth.
+
+<div align="center">
+    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. Multiple ways to deal with OAuth.
+    - Server-Side.
+    - Mobile/Native.
+    - SPA's.
+
 # A Brief History of OAuth.
 
+- Before **OAuth** there was **basic authentication**!
+
+- **Old way** of asking permission!
+
+<div align="center">
+    <img src="Old_Way_Of_Asking_Credentials.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. If one would see following today, would you want to give application your password?
+    - **3rd party** was give password to authenticate!
+        - Lot of companies implemented their own way to authenticate!
+            - They all had different names for things!
+
+- OAuth 1.0 was some troubles with mobile apps.
+
+- Some example using OAuth in **Smart TV**!
+
+<div align="center">
+    <img src="Oauth_In_Smart_Tvs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
 # How OAuth Improves Application Security.
+
+<div align="center">
+    <img src="Basic_Authentiac.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. Normally the authentication was handled as following!
+    - Saved in session cookie!
+
+- This will brake down, when there is need for multiple apps:
+    - Single sign on.
+    - Mobile app.
+
+- We would need to **save password** in **multiple apps**!
+
+<div align="center">
+    <img src="Security_From_Perspective_Of_An.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. Aspects that User cares about:
+2. Aspects that API cares about:
+
 
 # OAuth vs OpenID Connect.
 

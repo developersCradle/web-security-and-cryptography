@@ -21,7 +21,6 @@ Introduction to OpenID Connect.
     <img src="Decoded_Id_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
 </div>
 
-
 1. This is about the **token**!
 ````Json
 {
@@ -34,7 +33,7 @@ Introduction to OpenID Connect.
     - `aud` identify the user of the token!
     - `iat` is Unix **timestamp** when it was issued!
     - `exp` is Unix **timestamp** when it will be expired!
-    - `sub` The unique identifier for the user ({USER_ID}).
+    - `sub` The unique identifier for the user (`{USER_ID}`).
 ````Json
 {
   "sub": "{USER_ID}",
@@ -61,13 +60,15 @@ signature
 1. Often time the `access token` and `ID token` is the same, the token looks the same!
     - They are not the **same thing**!
 
-- **Access token** to used to make **API calls**! Getting the key from **Auhtorzation Server**!
+- **Access token** to used to make **API calls**! Getting the key from **Authorization Server**!
+    - The **client simply** receives the **token** and **sends it** with **API requests**.
+    - Only the Authorization Server and/or **Resource Server** need to **understand** and **validate** it.
 
 <div align="center">
     <img src="Access_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
 </div>
 
-- **ID token** to! Getting the key from **Auhtorzation Server**!
+- **ID token** is ment to understood by the application! Getting the key from **Authorization Server**!
 
 <div align="center">
     <img src="Authorization_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
@@ -90,6 +91,34 @@ signature
 - Not all the **OAuth** server would use the **access tokens** format as **JWT**!
 
 # Obtaining an ID Token.
+
+- How to obtain `id_token`?
+    - Most popular is to use **Authorization Code Flow** (Recommended)!
+
+<div align="center">
+    <img src="Getting_Access_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. To get `id_token` we can add `scope=openId` to ken  
+
+<div align="center">
+    <img src="We_Can_Define_The_Scope.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+````Bash
+https://authorization-server.com/auth?
+  response_type=code&
+  scope=photos+openid&
+  client_id=CLIENT_ID&
+  redirect_uri=REDIRECT_URI&
+  state=xyz1234&
+  nonce=1029385476&
+  code_challenge=CODE_CHALLENGE&
+  code_challenge_method=S256
+````
+
+
+
 
 # Hybrid OpenID Connect Flows.
 

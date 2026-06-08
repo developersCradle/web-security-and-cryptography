@@ -253,7 +253,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG"  style="height: 170px; width: 900px;">
 </p>
 
-Finnish Patent and Registration Office
 > When I was working on integrating our systems with the services provided by Finnish **P**atent and **R**egistration Office (**PRH**), one of the challenges was establishing a secure and standards-based connection using **OpenID** Connect on top of **OAuth 2.0**. 🐟
 >q
 > To connect successfully with the **PRH** service, I needed to understand how **OpenID** Connect extends **OAuth 2.0** by adding an identity layer. This meant not only obtaining access tokens for API calls but also understanding how identity information is issued, validated, and trusted between systems. 🐟 <br><br>
@@ -283,22 +282,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] Section 01 - Welcome. ⚠️ In progress! ⚠️
-- [ ] Section 02 - API Security Concepts. ⚠️ In progress! ⚠️
-- [ ] Section 03 - OAuth Clients. ⚠️ In progress! ⚠️
-- [ ] Section 04 - OAuth for Server-Side Applications. ⚠️ In progress! ⚠️
-- [ ] Section 05 - OAuth for Native Applications. ⚠️ In progress! ⚠️
-- [ ] Section 06 - OAuth for Single-Page Applications. ⚠️ In progress! ⚠️
-- [ ] Section 07 - OAuth for the Internet of Things. ⚠️ In progress! ⚠️
-- [ ] Section 08 - Client Credentials Flow. ⚠️ In progress! ⚠️
-- [ ] Section 09 - Introduction to OpenID Connect. ⚠️ In progress! ⚠️
-- [ ] Section 10 - Protecting an API with OAuth. ⚠️ In progress! ⚠️
-- [ ] Section 11 - Access Token Types and their Tradeoffs. ⚠️ In progress! ⚠️
-- [ ] Section 12 - JWT Access Tokens. ⚠️ In progress! ⚠️
-- [ ] Section 13 - Choosing Token Lifetimes. ⚠️ In progress! ⚠️
-- [ ] Section 14 - Handling Revoked or Invalidated Access Tokens. ⚠️ In progress! ⚠️
-- [ ] Section 15 - OAuth Scopes. ⚠️ In progress! ⚠️
-- [ ] Section 16 - Conclusion. ⚠️ In progress! ⚠️
+- [ ] [Section 01](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2001#section-01-introduction) - Welcome. ⚠️ In progress! ⚠️
+- [ ] [Section 02](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2002#section-02-api-security-concepts) - API Security Concepts. ⚠️ In progress! ⚠️
+- [ ] [Section 03](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2003#section-03-oauth-clients) - OAuth Clients. ⚠️ In progress! ⚠️
+- [ ] [Section 04](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2004#section-04-oauth-for-server-side-applications) - OAuth for Server-Side Applications. ⚠️ In progress! ⚠️
+- [ ] [Section 05](#) - OAuth for Native Applications. ⚠️ In progress! ⚠️
+- [ ] [Section 06](#) - OAuth for Single-Page Applications. ⚠️ In progress! ⚠️
+- [ ] [Section 07](#) - OAuth for the Internet of Things. ⚠️ In progress! ⚠️
+- [ ] [Section 08](#) - Client Credentials Flow. ⚠️ In progress! ⚠️
+- [ ] [Section 09](#) - Introduction to OpenID Connect. ⚠️ In progress! ⚠️
+- [ ] [Section 10](#) - Protecting an API with OAuth. ⚠️ In progress! ⚠️
+- [ ] [Section 11](#) - Access Token Types and their Tradeoffs. ⚠️ In progress! ⚠️
+- [ ] [Section 12](#) - JWT Access Tokens. ⚠️ In progress! ⚠️
+- [ ] [Section 13](#) - Choosing Token Lifetimes. ⚠️ In progress! ⚠️
+- [ ] [Section 14](#) - Handling Revoked or Invalidated Access Tokens. ⚠️ In progress! ⚠️
+- [ ] [Section 15](#) - OAuth Scopes. ⚠️ In progress! ⚠️
+- [ ] [Section 16](#) - Conclusion. ⚠️ In progress! ⚠️
 
 #### Additional stuff.
 

@@ -1,4 +1,4 @@
-# Section 04: OAuth for Native Applications.
+# Section 05: OAuth for Native Applications.
 
 OAuth for Native Applications.
 
