@@ -68,13 +68,115 @@ OAuth for Server-Side Applications.
 </div>
 
 1. User clicking login button!
-    - Before redirecting
-        - App create **new secret** and **hashes it**!
+    - Before redirecting.
+        - It goes to **App** create **new secret** and **hashes it** for this particular flow!
+
+<div align="center">
+    <img src="PKCE_Code_Verifier.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **PKCE** generates **Code Verifier**!
+
+<div align="center">
+    <img src="PKCE_Code_Challenge.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **PKCE** generates **Code Challenge**!  
+
+<div align="center">
+    <img src="Flow_02.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **App** generates the **hash** and returns it to the browser!
+2. **User browser** carrying that **hash** to the **OAuth server**
+    - This is **used** in **front channel**!
+        - This is the reason why we are using the **hash**, when sending request thought the **User browser**! We are not sending the secret itself!
+
+<div align="center">
+    <img src="Flow_03.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. User is asked to log in in **OAuth server**! After the user logs in, the **Authorization Server** redirects back with an **authorization code**.
+
+<div align="center">
+    <img src="Flow_04.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **OAuth** returns the **temporary code** that can be used to get a token!
+
+<div align="center">
+    <img src="Flow_05.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. Now we can get request for **access token** from the **App server side**. This includes:
+    ````Json
+    POST /token
+    Content-Type: application/x-www-form-urlencoded
+
+    grant_type=authorization_code
+    code=AUTH_CODE
+    redirect_uri=https://app.com/callback
+    client_id=CLIENT_ID
+    client_secret=CLIENT_SECRET
+    ````
+    - If using **PKCE**, you also send code_verifier instead of relying on a client secret.
+    - The OAuth server will reply with the **tokens**!
+    ````Json
+    {
+    "access_token": "ACCESS_TOKEN",
+    "refresh_token": "REFRESH_TOKEN",
+    "expires_in": 3600
+    }
+    ````
+
+- **PKCE** is recommended to use!
+
+<div align="center">
+    <img src="Authorization_Code_Injection.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **PKCE** should be used, to prevent this!
+
+<div align="center">
+    <img src="PKCE_Codes.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. **Code Verifier** (Secret) random string!
+2. **Cade Challenge** (Publish Hash) `base64url(sha256(code_verifier))`!
+
+- Now we are ready to **send user** to OAuth server!
+
+<div align="center">
+    <img src="Authorization_URL.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
+
+1. Find **authorization endpoint** from:
+    - Document! 
+    - OAuth metadata URL to find it!
+        - Use OpenID Connect **Discovery** (recommended)!
+2. Rest **Query String**:
+    - `response_type=code` - Request an **authorization code**! We want **authorization code**!
+    - `client_id` - Identifies the application! Add your apps **client_id**!
+    - `redirect_uri` - Where to send the user back! This has to match, ones which you registered the app!
+    - `scope` - Permissions being requested!
+    - `state` - **CSRF** protection! **PKCE** provides this protection also! 
+    - `code_challenge` - **PKCE** challenge (if using **PKCE**)!
+    - `code_challenge_method=S256` - **PKCE** hashing method!
+    - todo fix this
+    ````JSON
+    GET /authorize?
+    response_type=code
+    client_id=CLIENT_ID
+    redirect_uri=https://app.example.com/callback
+    scope=openid profile email
+    state=random123
+    ````
+
+<div align="center">
+    <img src="OAuth_Login_Screen.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>
 
 
-````
-Browser → Authorization Server (login)
-Authorization Server → Browser (authorization code)
-Backend → Authorization Server (token exchange)
-Backend ← Access Token + ID Token
-````
+<div align="center">
+    <img src="Authorization_Code_Flow.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+</div>

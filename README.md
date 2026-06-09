@@ -242,7 +242,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] Add here.
 
-
 # The Nuts and Bolts of OAuth 2.0.
 
 <!-- <p align="center">
@@ -308,3 +307,101 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 * **Section 09**:
     * *Assignment*:
         * [Assignment 06: Getting the User's Name and Email Address using OpenID Connect](#).
+
+# Spring Security Zero to Master along with JWT,OAUTH2.
+
+<!-- <p align="center">
+    <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="The Complete SSL and TLS Guide HTTP to HTTPS description.png"  style="height: 70px; width: 900px;">
+</p> -->
+
+<p align="center">
+    <img id="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description" src="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description.PNG"  style="height: 170px; width: 900px;">
+</p>
+
+> 🐟 <br><br>
+> ~ *DevelopersCradle*
+
+<!-- 
+All course material from Cryptography and Hashing Fundamentals in Python and Java **Holczer Balazs** ©.
+
+Contains my own notes with some course material to enforce learning experience.
+
+This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+[The course at Udemy](https://www.udemy.com/course/learn-cryptography-basics-in-python/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book: -->
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Welcome. ⚠️ In progress! ⚠️
+
+#### Additional stuff.
+
+- [ ] Add here.
+
+#### The Quizzes and Labs.
+
+* **Section 09**:
+    * *Assignment*:
+        * [](#).
+
+# OpenID Connect & JWT: User identity for your apps & APIs.
+
+<!-- <p align="center">
+    <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="The Complete SSL and TLS Guide HTTP to HTTPS description.png"  style="height: 70px; width: 900px;">
+</p> -->
+
+<p align="center">
+    <img id="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description" src="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description.PNG"  style="height: 170px; width: 900px;">
+</p>
+
+> 🐟 <br><br>
+> ~ *DevelopersCradle*
+
+<!-- 
+All course material from Cryptography and Hashing Fundamentals in Python and Java **Holczer Balazs** ©.
+
+Contains my own notes with some course material to enforce learning experience.
+
+This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+[The course at Udemy](https://www.udemy.com/course/learn-cryptography-basics-in-python/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book: -->
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<div align="center">
+    Insert certificate here when completed
+</div>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Welcome. ⚠️ In progress! ⚠️
+
+#### Additional stuff.
+
+- [ ] Add here.
+
+#### The Quizzes and Labs.
+
+* **Section 09**:
+    * *Assignment*:
+        * [](#).
