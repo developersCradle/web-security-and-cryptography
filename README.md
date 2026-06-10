@@ -18,7 +18,7 @@ We are using following structure:
 -->
 
 <p align="center">
-    <img id="studying" src="web_security_and_cryptography_caption.png" style="height: 100px; width: 900px;">
+    <img id="studying" src="Web_Security_And_Cryptography_Caption.png" style="height: 100px; width: 900px;">
     <text>SSL/TLS, cryptography, and developer security practices!</text>
 </p>
 
@@ -137,7 +137,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="cryptography_and_hashing_fundamentals_in_python_and_java_description.PNG"  style="height: 170px; width: 900px;">
+    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="cryptography_and_hashing_fundamentals_in_python_and_java_description.PNG" style="height: 220px; width: 900px;">
 </p>
 
 All course material from *Cryptography and Hashing Fundamentals in Python and Java* **Holczer Balazs** ©.
@@ -166,11 +166,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/spring-springboot-angular-microservices-mysql-java-persistence-hibernate-aws/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2001#section-01-introduction) - Introduction. ✅
-- [x] [Section 02](https://github.com/developersCradle/spring-springboot-angular-microservices-mysql-java-persistence-hibernate-aws/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2002#section-02-cryptography-fundamentals) - Cryptography Fundamentals. ✅
+- [x] [Section 01](https://github.com/developersCradle/web-security-and-cryptography/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2001#section-01-introduction) - Introduction. ✅
+- [x] [Section 02](https://github.com/developersCradle/web-security-and-cryptography/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2002#section-02-cryptography-fundamentals) - Cryptography Fundamentals. ✅
 - [x] [Section 03](#) - Symmetric (Private Key) Cryptography. ✅
-- [ ] [Section 04](#) - Caesar Cipher. ⚠️ In progress! ⚠️
-- [ ] [Section 05](#) - Cracking Caesar Cipher & Detecting Languages. ⚠️ In progress! ⚠️
+- [ ] [Section 04](https://github.com/developersCradle/web-security-and-cryptography/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2004#section-04-caesar-cipher) - Caesar Cipher. ⚠️ In progress! ⚠️
+- [ ] [Section 05](https://github.com/developersCradle/web-security-and-cryptography/tree/main/Cryptography%20and%20Hashing%20Fundamentals%20in%20Python%20and%20Java/Section%2005#section-05-cracking-caesar-cipher--detecting-languages) - Cracking Caesar Cipher & Detecting Languages. ⚠️ In progress! ⚠️
 - [ ] [Section 06](#) - Vigenere Cipher. ⚠️ In progress! ⚠️
 - [ ] [Section 07](#) - Cracking the Vigenere Cipher (Kasiski Algorithm). ⚠️ In progress! ⚠️
 - [ ] [Section 08](#) - One Time Pad (Vernam Cipher). ⚠️ In progress! ⚠️
@@ -205,7 +205,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="the_complete_SSL_and_TLS_Guide_HTTP_to_HTTPS_description.PNG"  style="height: 170px; width: 900px;">
+    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="the_complete_SSL_and_TLS_Guide_HTTP_to_HTTPS_description.PNG" style="height: 220px; width: 900px;">
 </p>
 
 > Some story of victory here! 🐟<br><br>
@@ -249,11 +249,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p> -->
 
 <p align="center">
-    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG"  style="height: 170px; width: 900px;">
+    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG"  style="height: 220px; width: 900px;">
 </p>
 
 > When I was working on integrating our systems with the services provided by Finnish **P**atent and **R**egistration Office (**PRH**), one of the challenges was establishing a secure and standards-based connection using **OpenID** Connect on top of **OAuth 2.0**. 🐟
->q
+>
 > To connect successfully with the **PRH** service, I needed to understand how **OpenID** Connect extends **OAuth 2.0** by adding an identity layer. This meant not only obtaining access tokens for API calls but also understanding how identity information is issued, validated, and trusted between systems. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
@@ -304,6 +304,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### The Quizzes and Labs.
 
+* **Section 04**:
+    * *Assignment*:
+        * [Assignment 02: OAuth for Web Server Applications](#).
+
 * **Section 09**:
     * *Assignment*:
         * [Assignment 06: Getting the User's Name and Email Address using OpenID Connect](#).
@@ -315,7 +319,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p> -->
 
 <p align="center">
-    <img id="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description" src="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description.PNG"  style="height: 170px; width: 900px;">
+    <img id="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description" src="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description.PNG" style="height: 220px; width: 900px;">
 </p>
 
 > 🐟 <br><br>
@@ -364,7 +368,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p> -->
 
 <p align="center">
-    <img id="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description" src="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description.PNG"  style="height: 170px; width: 900px;">
+    <img id="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description" src="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description.PNG"  style="height: 220px; width: 900px;">
 </p>
 
 > 🐟 <br><br>

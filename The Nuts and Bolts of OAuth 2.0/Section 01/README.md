@@ -7,19 +7,19 @@ Introduction.
 # Intro to this Course.
 
 <div align="center">
-    <img src="Introduction.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Introduction.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. The instructor!
 
 <div align="center">
-    <img src="Oauth_Is_Collection_Of_Multiple_Specs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Oauth_Is_Collection_Of_Multiple_Specs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. **OAuth** is collection of multiple specs!
 
 <div align="center">
-    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. This course will have two perspectives:
@@ -29,7 +29,7 @@ Introduction.
         - OAuth.
 
 <div align="center">
-    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Two_Perspective.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. Multiple ways to deal with OAuth.
@@ -44,7 +44,7 @@ Introduction.
 - **Old way** of asking permission!
 
 <div align="center">
-    <img src="Old_Way_Of_Asking_Credentials.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Old_Way_Of_Asking_Credentials.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. If one would see following today, would you want to give application your password?
@@ -57,13 +57,13 @@ Introduction.
 - Some example using OAuth in **Smart TV**!
 
 <div align="center">
-    <img src="Oauth_In_Smart_Tvs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Oauth_In_Smart_Tvs.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 # How OAuth Improves Application Security.
 
 <div align="center">
-    <img src="Basic_Authentiac.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Basic_Authentiac.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. Normally the authentication was handled as following!
@@ -76,7 +76,7 @@ Introduction.
 - We would need to **save password** in **multiple apps**!
 
 <div align="center">
-    <img src="Security_From_Perspective_Of_An.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Security_From_Perspective_Of_An.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. Aspects that User cares about:
@@ -92,7 +92,7 @@ Introduction.
 - **OpenID**:
 
 <div align="center">
-    <img src="Illustration_Of_The_Open_ID.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Illustration_Of_The_Open_ID.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. We can think of **Oauth** like the key card for the hotel room! Door does not **need** to know who opener is!
@@ -103,7 +103,7 @@ Introduction.
         - **Door** is behaving like **resource server**!
 
 <div align="center">
-    <img src="OpenID_Is_Implemented_Into_OAuth.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="OpenID_Is_Implemented_Into_OAuth.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. **OpenID** is extension for the **OAuth** that provides **user information**!
@@ -113,7 +113,7 @@ Introduction.
         - This tells about the users!
 
 <div align="center">
-    <img src="Seperation_Of_Responsibilities.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Seperation_Of_Responsibilities.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 # Quiz 01: The Basics.

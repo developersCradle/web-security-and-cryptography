@@ -9,7 +9,7 @@ Introduction to OpenID Connect.
 - **ID tokens** are **JWT tokens**.
 
 <div align="center">
-    <img src="ID_Token_Jwt.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="ID_Token_Jwt.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1.  There is the **header**, **payload** and **signature** part!
@@ -18,7 +18,7 @@ Introduction to OpenID Connect.
 - Once we are running the brought the **base64** decoder!
 
 <div align="center">
-    <img src="Decoded_Id_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Decoded_Id_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. This is about the **token**!
@@ -54,7 +54,7 @@ signature
 # How ID Tokens are Different from Access Tokens.
 
 <div align="center">
-    <img src="Token_Are_The_Same.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Token_Are_The_Same.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. Often time the `access token` and `ID token` is the same, the token looks the same!
@@ -65,13 +65,13 @@ signature
     - Only the Authorization Server and/or **Resource Server** need to **understand** and **validate** it.
 
 <div align="center">
-    <img src="Access_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Access_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 - **ID token** is ment to understood by the application! Getting the key from **Authorization Server**!
 
 <div align="center">
-    <img src="Authorization_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Authorization_Token_Flow.gif" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1.  **Application** gets the **ID token** and unpack it
@@ -79,7 +79,7 @@ signature
     - Validate the **signature**!
 
 <div align="center">
-    <img src="There_Is_Different_Aud_For_The_Tokens.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="There_Is_Different_Aud_For_The_Tokens.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. For the **Access Token** there is different the `aud` field!
@@ -96,13 +96,13 @@ signature
     - Most popular is to use **Authorization Code Flow** (Recommended)!
 
 <div align="center">
-    <img src="Getting_Access_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="Getting_Access_Token.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. To get `id_token` we can add `scope=openId` to ken  
 
 <div align="center">
-    <img src="We_Can_Define_The_Scope.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="500"/>
+    <img src="We_Can_Define_The_Scope.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 ````Bash

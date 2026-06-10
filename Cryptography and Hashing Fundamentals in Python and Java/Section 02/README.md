@@ -7,11 +7,11 @@ Cryptography Fundamentals.
 # What is cryptography?
 
 <div align="center">
-    <img src="whatIsCryptography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="whatIsCryptography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 <div align="center">
-    <img src="CryptographyIs.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="CryptographyIs.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. The act of **secure** communication in presence of **third party**.
@@ -19,26 +19,26 @@ Cryptography Fundamentals.
 2. The **reader** and **receiver** can read this message only!
 
 <div align="center">
-    <img src="applicationForCryptography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="applicationForCryptography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. One application for the **Cryptology** is for war!
 
 <div align="center">
-    <img src="applicationForCryptographySecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="applicationForCryptographySecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. Also when saving data to database or sending data over internet!
 
 <div align="center">
-    <img src="applicationForCryptographyThird.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="applicationForCryptographyThird.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. This is **heavily** useful when applying them in **Blockchain**, like **Bitcoin** and **Ethereum**.
     - These are using **E**lliptic **C**urve **C**ryptography.
 
 <div align="center">
-    <img src="processInCrypthography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="processInCrypthography.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. **Plain Text** is any **readable data**!
@@ -48,13 +48,13 @@ Cryptography Fundamentals.
 3. We can **decrypt** and **crypt** messages. These usually involves **key** and **algorithm** should be known!
 
 <div align="center">
-    <img src="whatIsCryptographySteps.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="whatIsCryptographySteps.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. This is needed for the **encryption** and **decryption**.
 
 <div align="center">
-    <img src="whatIsCryptographyStepsSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="whatIsCryptographyStepsSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. We can conclude that **encryption** is a **function**.
@@ -71,13 +71,13 @@ Cryptography Fundamentals.
 # Symmetric encryption.
 
 <div align="center">
-    <img src="whatIsCryptographyStepsSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="whatIsCryptographyStepsSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. When **both** **encryption** and **decryption** are using **same key** are the same, these are called `Symmetric cryptosystem`
 
 <div align="center">
-    <img src="symmmetricEncryptionProperties.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="symmmetricEncryptionProperties.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. When there is **single key** for the **encryption** and **decryption** These can be called:
@@ -100,7 +100,7 @@ Cryptography Fundamentals.
 # Asymmetric encryption.
 
 <div align="center">
-    <img src="symmmetricEncryptionProperties.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="symmmetricEncryptionProperties.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. The `A` means **not** or **opposite of**!
@@ -108,18 +108,18 @@ Cryptography Fundamentals.
 3. **Private key** for **decryption**.
 
 <div align="center">
-    <img src="symmmetricEncryptionPropertiesSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="symmmetricEncryptionPropertiesSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. **Private key** can be retrieved from the **Public key**, but it takes time.
 2. **Private key**s never need to be exchanged.
 
 <div align="center">
-    <img src="symmmetricEncryptionPropertiesSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="symmmetricEncryptionPropertiesSecond.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 <div align="center">
-    <img src="AsymmmetricCryptosystems.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="500"/>
+    <img src="AsymmmetricCryptosystems.PNG" alt="Cryptography and Hashing Fundamentals in Python and Java." width="600"/>
 </div>
 
 1. **Private key** must be private!  
