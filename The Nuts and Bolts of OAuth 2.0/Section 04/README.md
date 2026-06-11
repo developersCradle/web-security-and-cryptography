@@ -255,14 +255,55 @@ OAuth for Server-Side Applications.
     <img src="Refresh_Call_URL.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
-1. todo
+1. This endpoint is needed to check from the **documents** or **discovery channel**!
+2. Rest of the **query string**:
+    - `grant_type=refresh_token`: We want the **refresh token**.
+    - `refresh_token=REFRESH_TOKEN`: We add the **refresh token** from previous call!
+    - `client_id & client_secret`: The **credentials of the application** making the request.
+- Example **refresh token** as **JSON** returned:
+    ````Json
+    POST https://authorization-server.com/token
+    grant_type=refresh_token&
+    refresh_token=REFRESH_TOKEN&
+    client_id=CLIENT_ID&
+    client_secret=CLIENT_SECRET
+    ````
+
+> [!TIP]
+> Keep in mind every **Oath server** behave a **little bit differently**!
+
+
+
+
+
 
 - todo some flow
+
+
 <br>
 
 <div align="center">
     <img src="Authorization_Code_Flow.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
-
 # Assignment 02: OAuth for Web Server Applications.
+
+<details>
+<summary id="assignment_02_oauth_for_web_server_application" open="true"> <b>Assignment 02: OAuth for Web Server Applications! My Answer!</b> </summary>
+
+<div align="center">
+    <img src="Assignment_02_OAuth_For_Web_Server_Applications_Exercise.PNG"  alt="Assignment 02: OAuth for Web Server Applications!" width="600"/>
+</div>
+
+```Java
+
+```
+
+- **Question 1:** Please implement `MinMaxMetrics` below:`
+    - **Answer:** Below:
+
+```Java
+
+```
+
+</details>

@@ -18,7 +18,7 @@ We are using following structure:
 -->
 
 <p align="center">
-    <img id="studying" src="Web_Security_And_Cryptography_Caption.png" style="height: 100px; width: 900px;">
+    <img id="studying" src="Web_Security_And_Cryptography_Caption_TTEEST.png" style="height: 100px; width: 900px;">
     <text>SSL/TLS, cryptography, and developer security practices!</text>
 </p>
 
