@@ -165,7 +165,7 @@ OAuth for Server-Side Applications.
     - `code_challenge` - **PKCE** challenge (if using **PKCE**)!
     - `code_challenge_method=S256` - **PKCE** hashing method!
 - Example parameters:
-    ````JSON
+    ````Bash
     https://authorization-server.com/auth?
     response_type=code&
     client_id=CLIENT_ID&

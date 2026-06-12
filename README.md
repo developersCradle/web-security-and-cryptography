@@ -18,8 +18,8 @@ We are using following structure:
 -->
 
 <p align="center">
-    <img id="studying" src="Web_Security_And_Cryptography_Caption_TTEEST.png" style="height: 100px; width: 900px;">
-    <text>SSL/TLS, cryptography, and developer security practices!</text>
+    <img id="studying" src="Web_Security_And_Cryptography_Caption.png" style="height: 100px; width: 900px;"> <br>
+    <text> <b>SSL/TLS</b>, <b>cryptography</b>, and <b>developer security practices</b>!</text>
 </p>
 
 <p align="center">
@@ -29,6 +29,8 @@ We are using following structure:
 - For these courses one should configure **GIT** for handle projects.
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
+
+# Cybersecurity for Developers: From Basics to Best Practices.
 
 <p align="center">
     <img id="Advanced Java Topics: Java Reflection - Master Class" src="cybersecurity_for_developers_from_basics_to_best_practices_description.PNG" style="height: 220px; width: 900px;">
@@ -44,7 +46,7 @@ Contains my own notes with some course material to enforce learning experience.
 
 This repository is made with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#), therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️ 
 
- [The course at Udemy](https://www.udemy.com/course/cybersecurity-learnit/). 
+[The course at Udemy](https://www.udemy.com/course/cybersecurity-learnit/). 
 
 [Content maker](https://it-bulls.com/).
 
@@ -131,13 +133,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] stuff.
 
-
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="cryptography_and_hashing_fundamentals_in_python_and_java_caption.png"  style="height: 70px; width: 900px;">
+    <img id="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Caption" src="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Caption.png" style="height: 120px; width: 1200px;">
 </p>
 
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="cryptography_and_hashing_fundamentals_in_python_and_java_description.PNG" style="height: 220px; width: 900px;">
+    <img id="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Description" src="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Description.PNG" style="height: 220px; width: 900px;">
 </p>
 
 All course material from *Cryptography and Hashing Fundamentals in Python and Java* **Holczer Balazs** ©.
@@ -201,16 +202,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Same with C++.
 
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="The Complete SSL and TLS Guide HTTP to HTTPS description.png"  style="height: 70px; width: 900px;">
+    <img id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption.png" style="height: 120px; width: 1200px;">
 </p>
 
 <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java desc" src="the_complete_SSL_and_TLS_Guide_HTTP_to_HTTPS_description.PNG" style="height: 220px; width: 900px;">
+    <img id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Description" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Description.PNG" style="height: 220px; width: 900px;">
 </p>
 
 > Some story of victory here! 🐟<br><br>
 > ~ *DevelopersCradle*
-
 
 <!-- 
 All course material from Cryptography and Hashing Fundamentals in Python and Java **Holczer Balazs** ©.
@@ -242,15 +242,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] Add here.
 
-# The Nuts and Bolts of OAuth 2.0.
-
-<!-- <p align="center">
-    <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="The Complete SSL and TLS Guide HTTP to HTTPS description.png"  style="height: 70px; width: 900px;">
-</p> -->
 
 <p align="center">
-    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG"  style="height: 220px; width: 900px;">
+    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption.png" style="height: 120px; width: 1200px;">
 </p>
+
+<p align="center">
+    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG" style="height: 220px; width: 900px;">
+</p>
+
 
 > When I was working on integrating our systems with the services provided by Finnish **P**atent and **R**egistration Office (**PRH**), one of the challenges was establishing a secure and standards-based connection using **OpenID** Connect on top of **OAuth 2.0**. 🐟
 >
@@ -281,7 +281,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2001#section-01-introduction) - Welcome. ⚠️ In progress! ⚠️
+- [x] [Section 01](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2001#section-01-introduction) - Welcome. ✅
 - [ ] [Section 02](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2002#section-02-api-security-concepts) - API Security Concepts. ⚠️ In progress! ⚠️
 - [ ] [Section 03](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2003#section-03-oauth-clients) - OAuth Clients. ⚠️ In progress! ⚠️
 - [ ] [Section 04](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2004#section-04-oauth-for-server-side-applications) - OAuth for Server-Side Applications. ⚠️ In progress! ⚠️

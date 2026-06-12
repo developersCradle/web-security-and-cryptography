@@ -66,21 +66,29 @@ Introduction.
     <img src="Basic_Authentiac.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
-1. Normally the authentication was handled as following!
+1. Normally the authentication was handled as following! This would work in relative simple systems!
     - Saved in session cookie!
 
 - This will brake down, when there is need for multiple apps:
     - Single sign on.
     - Mobile app.
 
-- We would need to **save password** in **multiple apps**!
+- We would need to **save password** in **multiple apps** and forward them into **API's** and **3rd party systems**!
 
 <div align="center">
     <img src="Security_From_Perspective_Of_An.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
 </div>
 
 1. Aspects that User cares about:
+    - How user can know trust to Application?
+        - One just hopes it will be secure!
+    - Authentication if app uses for other applications!
 2. Aspects that API cares about:
+    - How you distinguish, which one is user and which one is API!
+    - If API's is are added more authentication methods, this needs to be added for every API separately.
+
+- **OAuth** tries to solve this by making user to type password for the **OAuth** server, not the app server!
+    - This token is then passed for the application to use!
 
 
 # OAuth vs OpenID Connect.
@@ -90,6 +98,7 @@ Introduction.
         - No need to identify who is accessing.
 
 - **OpenID**:
+    - Built on top of OAuth 2.0.
 
 <div align="center">
     <img src="Illustration_Of_The_Open_ID.PNG" alt="The Nuts and Bolts of OAuth 2.0." width="600"/>
@@ -117,3 +126,129 @@ Introduction.
 </div>
 
 # Quiz 01: The Basics.
+
+<details>
+<summary id="Question_01" open="true"> <b>Question 01.</b> </summary>
+
+````yaml
+Question 01:
+Is there ever a reason to enter your Google password in a third party app?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q1.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. Yes, Google enforces use of **OAuth** passwords when logging into 3rd party software!
+
+</details>
+
+<details>
+<summary id="Question_02" open="true"> <b>Question 02.</b> </summary>
+
+````yaml
+Question 02:
+Which one of the below is a risk to the user of entering their password directly into an application?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q2.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. When user gives password to app. There is no way what they will do with your password!
+
+</details>
+
+<details>
+<summary id="Question_03" open="true"> <b>Question 03.</b> </summary>
+
+````yaml
+Question 03:
+True or false: OAuth was created to be a single-sign-on protocol?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q3.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. **False**, it was, but not only it was extended later to service multiple types!
+
+</details>
+
+<details>
+<summary id="Question_04" open="true"> <b>Question 04.</b> </summary>
+
+````yaml
+Question 04:
+True or false: OAuth provides the application with the identity of the user signing in?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q4.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. **False**, OpenID provides the user identity!
+
+</details>
+
+<details>
+<summary id="Question_05" open="true"> <b>Question 05.</b> </summary>
+
+````yaml
+Question 05:
+True or false: OpenID Connect provides the application with the identity of the user signing in?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q5.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. **True**, OpenID provides user identity information!
+
+</details>
+
+<details>
+<summary id="Question_06" open="true"> <b>Question 06.</b> </summary>
+
+````yaml
+Question 06:
+True or false: OAuth provides a way for an application to get an access token to make API requests?
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q6.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. **True**, OAuth delegates the authorization!
+
+</details>
+
+<details>
+<summary id="Question_07" open="true"> <b>Question 07.</b> </summary>
+
+````yaml
+Question 07:
+True or False: Applications need to be able to parse access tokens to be able to use them
+````
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz_01/Q7.PNG" width="600" alt="The Nuts and Bolts of OAuth 2.0."/>
+</div>
+
+1. **False**, applications typically just store the token and send it in API requests. The resource server/API validates and interprets the token.
+
+</details>
