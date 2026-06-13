@@ -321,11 +321,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 * **Section 04**:
     * *Assignment*:
-        * [Assignment 02: OAuth for Web Server Applications](#).
+        * [Assignment 02: OAuth for Web Server Applications](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2004#assignment-02-oauth-for-web-server-applications).
 
 * **Section 09**:
     * *Assignment*:
-        * [Assignment 06: Getting the User's Name and Email Address using OpenID Connect](#).
+        * [Assignment 06: Getting the User's Name and Email Address using OpenID Connect](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2009#assignment-06-getting-the-users-name-and-email-address-using-openid-connect).
 
 # Spring Security Zero to Master along with JWT,OAUTH2.
 

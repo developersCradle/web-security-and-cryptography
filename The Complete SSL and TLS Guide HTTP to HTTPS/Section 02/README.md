@@ -84,8 +84,20 @@ Section 2: Introduction to the HTTPS and TLS.
 
 1. We can see that **HTTP** is not secure!
 
+<div align="center">
+    <img src="Downloaded_From_Different_Domain.PNG" width="600" alt="The Complete SSL and TLS Guide: HTTP to HTTPS course."/>
+</div>
+
+1. In `https://www.instagram.com/`, we can see the **domain**, where they are downloaded from!
+
+<div align="center">
+    <img src="Netowork_Traffic.PNG" width="600" alt="The Complete SSL and TLS Guide: HTTP to HTTPS course."/>
+</div>
+
+1. We can see **port** being added by the **TCP**! 
 
 
+- installing wireshark here.
 
 
 # Analyzing traffic using Wireshark.
