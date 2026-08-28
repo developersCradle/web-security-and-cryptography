@@ -17,6 +17,43 @@ We are using following structure:
 
 -->
 
+
+<!--
+Template for the questions:
+
+# Quiz 07: Atomic Operations, Volatile & Metrics Practical Example.
+
+<details>
+<summary id="Question_01" open="true"> <b>Question 01.</b> </summary>
+````yaml
+Question 01:
+The question comes here!
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz 07/Q1.PNG" width="600"/>
+</div>
+
+1. Add here the answer!
+
+</details>
+-->
+
+<!-- 
+Template for the task/exercies:
+ 
+# Lab Exercise - Mapping Collections of Value Types.
+
+<div align="center">
+    <img src="add here the exercise!" alt="Hibernate java persistence!" width=" 500"/>
+</div>
+
+1. **Question 1:** add here the question from the test!
+	- **Answer:** **D**. here can be the examplaniton!
+ -->
+ 
+
 <p align="center">
     <img id="studying" src="Web_Security_And_Cryptography_Caption.png" style="height: 100px; width: 900px;"> <br>
     <text> <b>SSL/TLS</b>, <b>cryptography</b>, and <b>developer security practices</b>!</text>
@@ -288,9 +325,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<div align="center">
-    Insert certificate here when completed
-</div>
+<p id="Logo_Combination" align="center">
+    <img src="Glorious_Milestone_Front_Of_PRH.jpeg" alt="course intros" style="width:490px;height:510px;"/>
+    <img src="Dummy_Cert.png" alt="course intros" style="width:490px;height:310px;"/>
+</p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
