@@ -14,9 +14,7 @@ We are using following structure:
     alt="Jackson quick start json serialization with java made easy description!"
     style="width:590px; height:160px;" />
 </p>
-
 -->
-
 
 <!--
 Template for the questions:
@@ -52,25 +50,46 @@ Template for the task/exercies:
 1. **Question 1:** add here the question from the test!
 	- **Answer:** **D**. here can be the examplaniton!
  -->
- 
+
+<!--  
+chnage this to the 
+https://chatgpt.com/c/6aae8529-5714-83eb-a695-70b59c040440
+ -->
 
 <p align="center">
-    <img id="studying" src="Web_Security_And_Cryptography_Caption.png" style="height: 100px; width: 900px;"> <br>
-    <text> <b>SSL/TLS</b>, <b>cryptography</b>, and <b>developer security practices</b>!</text>
+    <img 
+    id="studying" 
+    src="Web_Security_And_Cryptography_Caption.png" 
+    style="height: 100px; width: 900px;">
+    <br> <text> <b>SSL/TLS</b>, <b>cryptography</b>, and <b>developer security practices</b>!</text>
 </p>
 
 <p align="center">
-   <img src="security_repo_idea.png" alt="security repo idea" width="600" height="400"/>
+   <img 
+   src="Security_Coruses_Graphics.png" 
+   alt="Security coruses graphics!"
+   width="600" height="400"/>
 </p>
 
 - For these courses one should configure **GIT** for handle projects.
     - `git config --global http.postBuffer 524288000`.
     - `git config --global core.longpaths true`.
 
+
+<!-- 
+TODO this 
+<p align="center">
+    <img 
+    src="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption.png" 
+    alt="The nuts and bolts of oAuth 2.0 caption!" style="width:1600px;height:90px;" />
+</p>  -->
+
 # Cybersecurity for Developers: From Basics to Best Practices.
 
 <p align="center">
-    <img id="Advanced Java Topics: Java Reflection - Master Class" src="cybersecurity_for_developers_from_basics_to_best_practices_description.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="Cybersecurity_For_Developers_From_Basics_To_Best_Practices_Description?trk=public_profile_see-credential" src="Cybersecurity_For_Developers_From_Basics_To_Best_Practices_Description.PNG" alt="Cybersecurity for developers from basics to best practices_Description!"
+    style="width: 680px;">
 </p>
 
 All course material from *Cybersecurity for Developers: From Basics to Best Practices* by **Andrii Piatakha** ©. 
@@ -114,7 +133,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img id="Advanced Java Topics: Java Reflection - Master Class" src="OWASP_API_Security_Top_10_With_Java_Examples_Description.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="OWASP_API_Security_Top_10_With_Java_Examples_Description?trk=public_profile_see-credential" src="OWASP_API_Security_Top_10_With_Java_Examples_Description.PNG" alt="OWASP API security top 10 with java examples description!"
+    style="width: 680px;">
 </p>
 
 All course material from *OWASP API Security Top 10 2021/2023/2025 with Java Examples* by **Andrii Piatakha** ©. 
@@ -170,12 +191,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] stuff.
 
-<p align="center">
-    <img id="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Caption" src="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Captiontest.png" style="height: 120px; width: 1200px;">
-</p>
+<!-- <p align="center">
+    <img 
+    src="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption.png" 
+    alt="The nuts and bolts of oAuth 2.0 caption!" style="width:1600px;height:90px;" />
+</p>  -->
+
+# Cryptography and Hashing Fundamentals in Python and Java.
 
 <p align="center">
-    <img id="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Description" src="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Descriptiontest.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Description?trk=public_profile_see-credential" src="Cryptography_And_Hashing_Fundamentals_In_Python_And_Java_Description.PNG" alt="Cryptography and hashing fundamentals in python and java description!"
+    style="width: 680px;">
 </p>
 
 All course material from *Cryptography and Hashing Fundamentals in Python and Java* **Holczer Balazs** ©.
@@ -239,11 +266,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Same with C++.
 
 <p align="center">
-    <img id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption.png" style="height: 120px; width: 1200px;">
+    <img id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption?trk=public_profile_see-credential" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Caption.png" style="height: 120px; width: 1200px;">
 </p>
 
 <p align="center">
-    <img id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Description" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_DescriptionTEST.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Description?trk=public_profile_see-credential" src="The_Complete_SSL_And_TLS_Guide_HTTP_To_HTTPS_Description.PNG" alt="The complete SSL and TLS guide HTTP to HTTPS description!"
+    style="width: 680px;">
 </p>
 
 All course material from *The Complete SSL and TLS Guide: HTTP to HTTPS* by the **Holczer Balazs** ©.
@@ -376,7 +405,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p> -->
 
 <p align="center">
-    <img id="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description" src="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description?trk=public_profile_see-credential" src="Spring_Security_Zero_To_Master_Along_With_JWT_OAUTH2_Description.PNG" alt="Spring security zero to master along with JWT OAUTH2 description!"
+    style="width: 680px;">
 </p>
 
 All course material from *Spring Security Zero to Master along with JWT,OAUTH2* by the **Madan Reddy** and **Eazy Bytes** ©.
@@ -422,8 +453,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="Cryptography and Hashing Fundamentals in Python and Java caption" src="The Complete SSL and TLS Guide HTTP to HTTPS description.png"  style="height: 70px; width: 900px;">
 </p> -->
 
+
 <p align="center">
-    <img id="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description" src="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description.PNG"  style="height: 220px; width: 900px;">
+    <img 
+    id="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description?trk=public_profile_see-credential" src="OpenID_Connect_And_JWT_User_Identity_For_Your_Apps_And_APIs_Description.PNG" alt="OpenID connect and JWT user identity for your apps and APIs description!"
+    style="width: 680px;">
 </p>
 
 All course material from *OpenID Connect & JWT: User identity for your apps & APIs* by the **Matthias Biehl** ©.
