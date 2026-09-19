@@ -296,13 +296,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] Add here.
 
+<p align="center">
+    <img 
+    src="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption.png" 
+    alt="The nuts and bolts of oAuth 2.0 caption!" style="width:1600px;height:90px;" />
+</p> 
 
 <p align="center">
-    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Caption.png" style="height: 120px; width: 1200px;">
-</p>
-
-<p align="center">
-    <img id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG" style="height: 220px; width: 900px;">
+    <img 
+    id="The_Nuts_And_Bolts_Of_OAuth_2.0_Description?trk=public_profile_see-credential" src="The_Nuts_And_Bolts_Of_OAuth_2.0_Description.PNG" alt="The nuts and bolts of OAuth 2.0 description!"
+    style="width: 680px;">
 </p>
 
 All course material from *The Nuts and Bolts of OAuth 2.0* by the **Aaron Parecki** ©.
@@ -336,21 +339,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2001#section-01-introduction) - Welcome. ✅
-- [ ] [Section 02](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2002#section-02-api-security-concepts) - API Security Concepts. ⚠️ In progress! ⚠️
-- [ ] [Section 03](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2003#section-03-oauth-clients) - OAuth Clients. ⚠️ In progress! ⚠️
-- [ ] [Section 04](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2004#section-04-oauth-for-server-side-applications) - OAuth for Server-Side Applications. ⚠️ In progress! ⚠️
-- [ ] [Section 05](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2005#section-05-oauth-for-native-applications) - OAuth for Native Applications. ⚠️ In progress! ⚠️
-- [ ] [Section 06](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2006#section-06-oauth-for-single-page-applications) - OAuth for Single-Page Applications. ⚠️ In progress! ⚠️
-- [ ] [Section 07](https://github.com/developersCradle/web-security-and-cryptography/blob/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2007/README.md#section-07-oauth-for-the-internet-of-things) - OAuth for the Internet of Things. ⚠️ In progress! ⚠️
-- [ ] [Section 08](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2008#section-08-client-credentials-flow) - Client Credentials Flow. ⚠️ In progress! ⚠️
-- [ ] [Section 09](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2009#section-09---introduction-to-openid-connect) - Introduction to OpenID Connect. ⚠️ In progress! ⚠️
-- [ ] [Section 10](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2010#section-10-protecting-an-api-with-oauth) - Protecting an API with OAuth. ⚠️ In progress! ⚠️
-- [ ] [Section 11](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2011#section-11-access-token-types-and-their-tradeoffs) - Access Token Types and their Tradeoffs. ⚠️ In progress! ⚠️
-- [ ] [Section 12](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2012#section-12-jwt-access-tokens) - JWT Access Tokens. ⚠️ In progress! ⚠️
-- [ ] [Section 13](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2013#section-13-choosing-token-lifetimes) - Choosing Token Lifetimes. ⚠️ In progress! ⚠️
-- [ ] [Section 14](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2014) - Handling Revoked or Invalidated Access Tokens. ⚠️ In progress! ⚠️
-- [ ] [Section 15](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2015#section-15-oauth-scopes) - OAuth Scopes. ⚠️ In progress! ⚠️
-- [ ] [Section 16](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2016#section-16-conclusion) - Conclusion. ⚠️ In progress! ⚠️
+- [x] [Section 02](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2002#section-02-api-security-concepts) - API Security Concepts. ✅
+- [x] [Section 03](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2003#section-03-oauth-clients) - OAuth Clients. ✅
+- [x] [Section 04](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2004#section-04-oauth-for-server-side-applications) - OAuth for Server-Side Applications. ✅
+- [x] [Section 05](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2005#section-05-oauth-for-native-applications) - OAuth for Native Applications. ✅
+- [x] [Section 06](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2006#section-06-oauth-for-single-page-applications) - OAuth for Single-Page Applications. ✅
+- [x] [Section 07](https://github.com/developersCradle/web-security-and-cryptography/blob/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2007/README.md#section-07-oauth-for-the-internet-of-things) - OAuth for the Internet of Things. ✅
+- [x] [Section 08](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2008#section-08-client-credentials-flow) - Client Credentials Flow. ✅
+- [x] [Section 09](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2009#section-09---introduction-to-openid-connect) - Introduction to OpenID Connect. ✅
+- [x] [Section 10](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2010#section-10-protecting-an-api-with-oauth) - Protecting an API with OAuth. ✅
+- [x] [Section 11](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2011#section-11-access-token-types-and-their-tradeoffs) - Access Token Types and their Tradeoffs. ✅
+- [x] [Section 12](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2012#section-12-jwt-access-tokens) - JWT Access Tokens. ✅
+- [x] [Section 13](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2013#section-13-choosing-token-lifetimes) - Choosing Token Lifetimes. ✅
+- [x] [Section 14](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2014) - Handling Revoked or Invalidated Access Tokens. ✅
+- [x] [Section 15](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2015#section-15-oauth-scopes) - OAuth Scopes. ✅
+- [x] [Section 16](https://github.com/developersCradle/web-security-and-cryptography/tree/main/The%20Nuts%20and%20Bolts%20of%20OAuth%202.0/Section%2016#section-16-conclusion) - Conclusion. ✅
 
 #### Additional stuff.
 
